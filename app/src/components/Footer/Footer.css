@@ -1,0 +1,144 @@
+div#footer-div {
+
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+@media (max-width: 600px) {
+    div#footer-div {
+        padding: 0px !important ;
+        margin-top: 25px;
+        
+    }
+
+    div#footer-infos{ 
+        flex-direction: column !important;
+    }
+
+
+    div#footer-infos *{
+        
+        width: 95%;
+        text-align: center !important;
+
+    }
+
+
+
+    div#footer-newsletter {
+        margin-top: 60px;
+        padding: 0px;
+        ;
+        
+    }
+
+
+
+}
+
+@media (max-width: 1250px) {
+
+    div#footer-div {
+        padding: 60px 0;
+    }
+
+    div#footer-infos{
+        justify-content: center;
+
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    div#main-home > div {
+        padding: 0 !important
+    }
+    div#footer-div {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        overflow: hidden;
+    } 
+
+    div#footer-newsletter {
+        margin: auto !important;
+        width: 90% !important;
+        flex-direction: column;
+
+    }
+
+    div#footer-infos{
+        margin-bottom: 60px;
+
+    }
+}
+
+div#footer-div > div#footer-infos {
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+div#footer-div > div#footer-infos > div {
+    margin: 0 20px;
+    
+}
+
+div#footer-div > div#footer-infos > div > li.title {
+    color: rgb(185, 185, 185);
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+div#footer-div > div#footer-infos > div > li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 14px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+div#footer-div > div#footer-infos > div > li:hover {
+    color: rgb(185, 185, 185);
+
+}
+/* //////////////////////////////////////////////// */
+
+
+div#footer-div > div#footer-newsletter {
+    margin-left: 100px;
+    width: 500px;
+    right: 0;
+    color: rgb(92, 92, 92);
+    background-color: rgb(238, 238, 238);
+    padding: 50px 20px;
+}
+
+div#footer-div > div#footer-newsletter > h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+div#footer-div > div#footer-newsletter > div {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+div#footer-div > div#footer-newsletter > div > label {
+    margin-left: 10px;
+    color: rgb(88, 88, 88);
+    margin-top: -8px;
+}
+
+/* ////////////////// */
+

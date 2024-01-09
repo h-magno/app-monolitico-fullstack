@@ -1,0 +1,15 @@
+body {
+    background-color: red !important;
+}
+.title-document-input {
+    background: white;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: grey !important;
+    border-width: 1px;
+}
+
+.css-yjsfm1 > span:focus {
+    color: black !important;
+}

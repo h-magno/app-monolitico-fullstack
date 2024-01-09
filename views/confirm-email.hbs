@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" src="../assets/style/style-confirm-email.css">
+</head>
+<body>
+    <h1>Olá {{{name}}},</h1>
+    <div>
+        {{#if status }}
+            <h1>{{{msg}}}</h1>
+            <p>Clique botão abaixo para acessar sua conta</p>
+            <button><a href="{{{url_font}}}">OK</a></button>
+            <p>Ou copie esta url e cole na barra de pesquisa do seu navegador</p>
+            <p>http://localhost:3000/login</p>
+        {{else }}
+            <p>{{{msg}}} </p> 
+            <p>Tente novamente ou contate o suporte</p>
+        {{/if }}
+    </div>
+</body>
+</html>

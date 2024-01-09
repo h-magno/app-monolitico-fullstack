@@ -1,0 +1,9 @@
+
+.bg-login-img {
+    background-image: url('https://helpx.adobe.com/content/dam/help/pt/creative-cloud/help/about-cloud-documents/jcr_content/main-pars/multi_column_152073995/col-33-33-33-c1/image/Icon-cloud-documents.png.img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+
+}
